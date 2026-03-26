@@ -1,0 +1,84 @@
+[32mINFO[0m:     [08-09-2024 21:18:09] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-09-2024 21:18:09] Starting component System
+[36mDEBUG[0m:    [08-09-2024 21:18:09] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-09-2024 21:18:09] Starting component SqliteDB
+[36mDEBUG[0m:    [08-09-2024 21:18:11] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [08-09-2024 21:18:11] Starting component Posthog
+[36mDEBUG[0m:    [08-09-2024 21:18:11] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-09-2024 21:18:11] Starting component SegmentAPI
+[32mINFO[0m:     [08-09-2024 21:18:11] Started server process [[36m1774[0m]
+[32mINFO[0m:     [08-09-2024 21:18:11] Waiting for application startup.
+[32mINFO[0m:     [08-09-2024 21:18:11] Application startup complete.
+[32mINFO[0m:     [08-09-2024 21:18:11] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-09-2024 21:19:58] Shutting down
+[32mINFO[0m:     [08-09-2024 21:19:58] Waiting for application shutdown.
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component System
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component SegmentAPI
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component Posthog
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component SqliteDB
+[36mDEBUG[0m:    [08-09-2024 21:19:58] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [08-09-2024 21:19:58] Application shutdown complete.
+[32mINFO[0m:     [08-09-2024 21:19:58] Finished server process [[36m1774[0m]
+[32mINFO[0m:     [08-09-2024 21:20:05] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component System
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component SqliteDB
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component Posthog
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-09-2024 21:20:05] Starting component SegmentAPI
+[32mINFO[0m:     [08-09-2024 21:20:05] Started server process [[36m1888[0m]
+[32mINFO[0m:     [08-09-2024 21:20:05] Waiting for application startup.
+[32mINFO[0m:     [08-09-2024 21:20:05] Application startup complete.
+[32mINFO[0m:     [08-09-2024 21:20:05] Uvicorn running on [1mhttp://localhost:8002[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-09-2024 21:21:51] ::1:37924 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:21:51] ::1:37924 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:21:52] ::1:37932 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:37:19] ::1:51186 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:37:19] ::1:51186 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [08-09-2024 21:37:19] Collection neb_rag already exists, returning existing collection.
+[32mINFO[0m:     [08-09-2024 21:37:19] ::1:51188 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:44:05] ::1:56654 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [08-09-2024 21:44:05] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [08-09-2024 21:44:06] ::1:56654 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:44:07] ::1:56654 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:44:21] ::1:56654 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:44:22] ::1:56654 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:44:22] ::1:56654 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:46:01] ::1:58274 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:46:02] ::1:58274 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:46:17] ::1:58274 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:46:17] ::1:58274 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:50:12] ::1:33344 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 21:50:14] ::1:33344 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/upsert HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:06:10] ::1:46122 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:16:31] ::1:55520 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:19:12] ::1:58518 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:19:53] ::1:59234 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:25:58] ::1:37038 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:31:17] ::1:42286 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:32:21] ::1:43372 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:36:33] ::1:47484 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:45:34] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [08-09-2024 22:45:34] Starting component System
+[36mDEBUG[0m:    [08-09-2024 22:45:34] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [08-09-2024 22:45:34] Starting component SqliteDB
+[36mDEBUG[0m:    [08-09-2024 22:45:35] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [08-09-2024 22:45:35] Starting component Posthog
+[36mDEBUG[0m:    [08-09-2024 22:45:35] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [08-09-2024 22:45:35] Starting component SegmentAPI
+[32mINFO[0m:     [08-09-2024 22:45:35] Started server process [[36m826[0m]
+[32mINFO[0m:     [08-09-2024 22:45:35] Waiting for application startup.
+[32mINFO[0m:     [08-09-2024 22:45:35] Application startup complete.
+[32mINFO[0m:     [08-09-2024 22:45:35] Uvicorn running on [1mhttp://localhost:8002[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [08-09-2024 22:46:01] ::1:56358 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 22:46:01] ::1:56358 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [08-09-2024 22:46:01] Collection neb_rag already exists, returning existing collection.
+[32mINFO[0m:     [08-09-2024 22:46:01] ::1:56364 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [08-09-2024 22:48:51] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [08-09-2024 22:48:53] ::1:59022 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 23:00:43] ::1:41564 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 23:25:08] ::1:34854 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
+[32mINFO[0m:     [08-09-2024 23:45:47] ::1:53514 - "POST /api/v1/collections/154650dd-361d-44cd-b118-d2b467fbc408/query HTTP/1.1" 200
